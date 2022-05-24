@@ -36,8 +36,8 @@ AddEventHandler(
             else
                 QBCore.Functions.Notify("Your Vehicle is to damaged", "error", 5000)
             end
-        else
-            QBCore.Functions.Notify("You don't have access to the ELS Panel", "error", 5000)
+        elseif IsPedInAnyVehicle(PlayerPedId(), true) then
+            QBCore.Functions.Notify("You do not have access to the ELS Panel (This is not an emergency vehicle or you don't have access codes)", "error", 5000)
         end
     end
 )
@@ -75,8 +75,8 @@ RegisterCommand(
                     QBCore.Functions.Notify("Your Vehicle is to damaged", "error", 5000)
                 end
             end
-        else
-            QBCore.Functions.Notify("You don't have access to the ELS Panel", "error", 5000)
+        elseif IsPedInAnyVehicle(PlayerPedId(), true) then
+            QBCore.Functions.Notify("You do not have access to the ELS Panel (This is not an emergency vehicle or you don't have access codes)", "error", 5000)
         end
     end
 )
@@ -113,8 +113,8 @@ RegisterCommand(
                     QBCore.Functions.Notify("Your Vehicle is to damaged", "error", 5000)
                 end
             end
-        else
-            QBCore.Functions.Notify("You don't have access to the ELS Panel", "error", 5000)
+        elseif IsPedInAnyVehicle(PlayerPedId(), true) then
+            QBCore.Functions.Notify("You do not have access to the ELS Panel (This is not an emergency vehicle or you don't have access codes)", "error", 5000)
         end
     end
 )
@@ -151,8 +151,8 @@ RegisterCommand(
                     QBCore.Functions.Notify("Your Vehicle is to damaged", "error", 5000)
                 end
             end
-        else
-            QBCore.Functions.Notify("You don't have access to the ELS Panel", "error", 5000)
+        elseif IsPedInAnyVehicle(PlayerPedId(), true) then
+            QBCore.Functions.Notify("You do not have access to the ELS Panel (This is not an emergency vehicle or you don't have access codes)", "error", 5000)
         end
     end
 )
@@ -189,8 +189,8 @@ RegisterCommand(
                     QBCore.Functions.Notify("Your Vehicle is to damaged", "error", 5000)
                 end
             end
-        else
-            QBCore.Functions.Notify("You don't have access to the ELS Panel", "error", 5000)
+        elseif IsPedInAnyVehicle(PlayerPedId(), true) then
+            QBCore.Functions.Notify("You do not have access to the ELS Panel (This is not an emergency vehicle or you don't have access codes)", "error", 5000)
         end
     end
 )
@@ -227,8 +227,8 @@ RegisterCommand(
                     QBCore.Functions.Notify("Your Vehicle is to damaged", "error", 5000)
                 end
             end
-        else
-            QBCore.Functions.Notify("You don't have access to the ELS Panel", "error", 5000)
+        elseif IsPedInAnyVehicle(PlayerPedId(), true) then
+            QBCore.Functions.Notify("You do not have access to the ELS Panel (This is not an emergency vehicle or you don't have access codes)", "error", 5000)
         end
     end
 )
@@ -265,8 +265,8 @@ RegisterCommand(
                     QBCore.Functions.Notify("Your Vehicle is to damaged", "error", 5000)
                 end
             end
-        else
-            QBCore.Functions.Notify("You don't have access to the ELS Panel", "error", 5000)
+        elseif IsPedInAnyVehicle(PlayerPedId(), true) then
+            QBCore.Functions.Notify("You do not have access to the ELS Panel (This is not an emergency vehicle or you don't have access codes)", "error", 5000)
         end
     end
 )
@@ -303,8 +303,8 @@ RegisterCommand(
                     QBCore.Functions.Notify("Your Vehicle is to damaged", "error", 5000)
                 end
             end
-        else
-            QBCore.Functions.Notify("You don't have access to the ELS Panel", "error", 5000)
+        elseif IsPedInAnyVehicle(PlayerPedId(), true) then
+            QBCore.Functions.Notify("You do not have access to the ELS Panel (This is not an emergency vehicle or you don't have access codes)", "error", 5000)
         end
     end
 )
